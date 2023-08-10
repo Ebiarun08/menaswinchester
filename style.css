@@ -1,0 +1,256 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.navbar {
+    height: 22vh;
+    background: #4e5944 url(./images/bg-header.jpg);
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 3px solid white;
+}
+
+.logo {
+    margin-left: 175px;
+    padding: 40px 0px 46px;
+
+}
+
+.navlinks {
+    display: flex;
+    margin-right: 170px;
+    padding: 52px 0px 0px;
+}
+
+.navlinks li {
+    list-style: none;
+    padding: 13px;
+}
+
+.navlinks a {
+    color: #b8c6ac;
+    font-size: 13px;
+}
+
+.navlinks a:hover {
+    color: white;
+}
+
+.herosection {
+    background-color: whitesmoke;
+}
+
+.main {
+    display: flex;
+    width: 100%;
+     padding: 10px 180px 0px;
+    align-items: center;
+    background: #d9d9d9 url(../images/bg-footer.png) repeat-x left top;
+    
+}
+
+.contentbox {
+    display: flex;
+    width: 100%;
+    align-items: center;
+    border: 2px solid white;
+    background-color: #e9e9e9;
+    justify-content: space-around;
+}
+
+.heading h1 {
+    text-align: center;
+    line-height: 55px;
+    font-family: 'Dai Banna SIL', serif;
+    color: #4e5944;
+    font-weight: 200;
+    padding: 0px 0px 0px 20px;
+}
+.heading p {
+    text-align: center;
+    line-height: 45px;
+    font-size: 28px;
+    color: #4e5944;
+}
+.contentbox2{
+    background-color:#e9e9e9;
+    width: 70%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-left: 180px;
+}
+.contentsection{
+    background-color: #e9e9e9;
+    
+    border-top: 2px solid white;
+    border-bottom: 2px solid white;
+    padding-bottom: 20px;
+}
+.maincontent{
+    width: 70%;
+    border-right: 2px solid white;
+    padding-right: 40px;
+}
+.maincontent h2{
+    font-size: 30px;
+    color: #4e5944;
+    padding-bottom: 20px;
+    font-weight: 200;
+
+}
+.maincontent p{
+    color: #626262;
+    line-height: px;
+}
+.quote{
+    padding-left: 50px;
+    width: 30%;
+}
+.quote h3{
+    padding-top: 30px;
+    padding-bottom: 20px;
+    color: #4e5944;
+    font-weight: 200;
+}
+.quote p{
+    padding-bottom: 10px;
+    color: #626262;
+}
+.quote .author{
+    padding-left: 50px;
+}
+.outerbox{
+    width: 100%;
+    background-color: #e9e9e9;
+    align-items: center;
+}
+.contentbox3{
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(250px,1fr));
+    gap: 2rem;
+    padding:0 60px;
+}
+.feature{
+    padding:30px  50px;
+    background-color: #e9e9e9;
+    width: 100%;
+}
+.feature h3{
+    padding: 10px 0px 30px 80px ;
+    font: 19px/24px "Times New Roman", Times, serif;
+    color: #4e5944;
+}
+.card{
+    width: 100%;
+    
+   
+
+}
+.cardheader img{
+    aspect-ratio: 3/2;
+    object-fit: cover;
+    width: 100%;
+    border: 5px solid white;
+
+}
+
+.cardbody h2{
+    text-align: left;
+    font-size: 15px;
+    padding: 10px;
+    color: #626262;
+     
+}
+.cardbody p{
+    padding: 5px;
+    font: 14px/24px Arial, Helvetica, sans-serif;
+    color: #626262;
+}
+.cardbody button{
+    padding: 8px;
+    background-color: grey;
+    border: 2px solid grey;
+}
+.cardbody button a{
+    color: whitesmoke;
+    text-decoration: none;
+}
+.cardbody button:hover{
+    background-color: black;
+}
+.contactsection{
+    /* display: flex; */
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(330px,1fr));
+    object-fit: cover;
+    padding: 30px 150px;
+    background: #d9d9d9 url(../images/bg-footer.png) repeat-x left top;
+    border-top: 2px solid #fff;
+    border-bottom: 2px solid #fff;
+    
+}
+.contactsection p{
+    text-align: left;
+    font-size: 15px;
+    padding: 20px;
+    line-height: 18px;
+}
+.contactsection h2{
+    font-size: 15px;
+    font-weight: 200;
+    padding: 20px;
+}
+.news{
+   
+    border-right: 1px solid #fff;
+}
+.contact{
+   
+    border-right: 1px solid #fff;
+}
+.message{
+    
+    padding-top: 15px;
+    
+}
+.message button{
+    background-color: grey;
+    padding: 8px;
+    border: 1px solid gray;
+    margin-left: 20px;
+
+}
+.message button a{
+    color: #fff;
+    text-decoration: none;
+}
+.iconbar{
+    height: 5vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #4e5944;
+}
+.icons{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 30px;
+    
+}
+.icons li{
+    list-style: none;
+    padding: 10px;
+    color: #fff;
+}
+.credit{
+    margin-right: 30px;
+    color: #fff;
+}
